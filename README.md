@@ -37,8 +37,6 @@ for multiplication, finding instead a qualitatively different QR-based represent
 
 ## Results
 
-## Grokking
-
 ### Grokking curve — p=97, 1-head transformer
 ![Grokking curve](plots/loss.png)
 
