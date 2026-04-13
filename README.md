@@ -37,7 +37,7 @@ for multiplication, finding instead a qualitatively different QR-based represent
 
 ## Results
 
-### Grokking curve — p=97, 1-head transformer
+### Grokking curve (p=97, 1-head transformer)
 ![Grokking curve](plots/loss.png)
 
 ### LDA projection: QR vs NR separation
