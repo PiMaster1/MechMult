@@ -2,7 +2,7 @@ import json
 import plotly.graph_objects as go
 import numpy as np
 
-def smooth(values, window=50):
+def smooth(values, window=75):
     return np.convolve(values, np.ones(window)/window, mode='valid')
 
 fig = go.Figure()
@@ -34,3 +34,5 @@ fig.update_layout(
     yaxis=dict(range=[0, 1.05])
 )
 fig.show()
+
+fig.write_image("plots/loss.png")

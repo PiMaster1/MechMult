@@ -97,3 +97,6 @@ fig2.update_layout(
     barmode='group'
 )
 fig2.show()
+
+fig1.write_image("plots/lda_projection.png")
+fig2.write_image("plots/accuracy_comparison.png")
